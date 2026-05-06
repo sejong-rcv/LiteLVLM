@@ -120,5 +120,12 @@ bash eval/referring_seg/run_evaluation.sh 'checkpoints/GLaMM-RefSeg' 'run/LiteLV
 ## 📝 License
 This project is released under the [Apache 2.0 license](./LICENSE).
 
+## Citation
+
+If you use LiteLVLM in your research, please cite our work by using the following BibTeX entry:
+```bibtex
+
+```
+
 ## 🙏 Acknowledgement
 We thank to [GLaMM](https://github.com/mbzuai-oryx/groundingLMM) and [VideoGLaMM](https://github.com/mbzuai-oryx/VideoGLaMM) for releasing their code as open source.
