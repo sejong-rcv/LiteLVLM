@@ -3,7 +3,6 @@
 </div>
 
 # CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models
-
 [Sangin Lee](https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AIqSsVtReIryhTuSPRawrTwYvu9NA-xEVwFSQW5_enptxY4xswt0mimpMdlTRMNcsPGnnHCtNuzk0T4gDErqakULVV1Df2sHd23GlASjg1SNvGtkgQ&user=MO_dSVUAAAAJ)$^1$ and [Yukyung Choi](https://scholar.google.com/citations?user=vMrPtrAAAAAJ&hl=en)$^{\ddagger}$
 
 ## 📜 News
