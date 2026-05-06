@@ -1,6 +1,7 @@
 # CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models
 
 ## 📜 News
+
 🔥 **[2026/05/07]** Our code is now open source!
 
 🔥 **[2026/05/01]** Our LiteLVLM is accepted by **ICML 2026**!
