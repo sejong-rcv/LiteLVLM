@@ -28,7 +28,7 @@ In large vision-language models (LVLMs), visual tokens typically constitute the 
 1. Clone this repository.
 ```bash
 git clone https://github.com/sejong-rcv/LiteLVLM.git
-cd CLIP-Tricks-You
+cd LiteLVLM
 ```
 
 2. Setup a conda environment and install packages.
