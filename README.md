@@ -27,7 +27,7 @@ In large vision-language models (LVLMs), visual tokens typically constitute the 
 
 1. Clone this repository.
 ```bash
-https://github.com/2026ICML4414/CLIP-Tricks-You.git
+git clone https://github.com/sejong-rcv/LiteLVLM.git
 cd CLIP-Tricks-You
 ```
 
