@@ -1,5 +1,5 @@
 <div align=center>
-<img width="100%" alt="image" src="images/teaser.png">
+<img width="100%" alt="image" src="imgs/teaser.png">
 </div>
 
 # CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models
@@ -21,11 +21,11 @@
 5. [License](#License)
 6. [Acknowledgement](#Acknowledgement)
 
-## <img src="images/logo.png" height="55"> LiteLVLM
+## <img src="imgs/logo.png" height="55"> LiteLVLM
 In large vision-language models (LVLMs), visual tokens typically constitute the majority of input sequences, leading to substantial computational overhead. To address this, recent studies have focused on pruning redundant or less important visual tokens for image understanding tasks. However, these methods struggle with pixel grounding, where token importance is highly dependent on the textual input. Through an in-depth analysis of CLIP, we observe that **visual tokens within the object region often exhibit low similarity to the text.** Motivated by this insight, **we propose LiteLVLM, a training-free, text-guided token pruning for efficient pixel grounding inference.** By simply reversing CLIP's visual-text similarity, LiteLVLM retains text-relevant visual tokens essential for grounding, while recovering context tokens to enable clear foreground-background separation. Extensive experiments demonstrate that LiteLVLM significantly outperforms existing methods across diverse token reduction ratios. Without any training or fine-tuning, our LiteLVLM maintains 90\% of the original performance while achieving a 2.2&times; speedup and a 2.3&times; memory reduction. The code will be released on GitHub after publication.
 
 <div align=center>
-<img width="700" alt="image" src="images/intro.png">
+<img width="700" alt="image" src="imgs/intro.png">
 </div>
 
 ## 🚀 Installation
