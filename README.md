@@ -25,7 +25,7 @@
 In large vision-language models, visual tokens typically constitute the majority of input tokens, leading to substantial computational overhead. To address this, recent studies have explored pruning redundant or less informative visual tokens for image understanding tasks. However, these methods struggle with pixel grounding tasks, where token importance is highly contingent on the input text. Through an in-depth analysis of CLIP, we observe that visual tokens located within referent regions often exhibit low similarity to the textual representation. Motivated by this insight, we introduce LiteLVLM, a training-free, text-guided token pruning strategy for efficient pixel grounding inference. By reversing the ranking of CLIP's visual-text similarity, LiteLVLM effectively retains visual tokens covering the referent regions, while recovering context tokens to enable clear foreground-background separation. Extensive experiments demonstrate that LiteLVLM significantly outperforms existing methods by over 5\% across diverse token budgets. Without any training or fine-tuning, LiteLVLM maintains 90\% of the original performance with a 22\% speedup and a 2.3&times; memory reduction.
 
 <div align=center>
-<img width="700" alt="image" src="imgs/intro.png">
+<img width="700" alt="intro" src="imgs/intro.png">
 </div>
 
 ## 🚀 Installation
