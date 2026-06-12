@@ -140,7 +140,12 @@ This project is released under the [Apache 2.0 license](./LICENSE).
 
 If you use LiteLVLM in your research, please cite our work by using the following BibTeX entry:
 ```bibtex
-
+@article{lee2026clip,
+  title={CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large VIsion-Language Models},
+  author={Lee, Sangin and Choi, Yukyung},
+  journal={arXiv preprint arXiv:2605.13178},
+  year={2026}
+}
 ```
 
 ## 🙏 Acknowledgement
