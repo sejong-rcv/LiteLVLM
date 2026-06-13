@@ -144,9 +144,9 @@ class CLIPVisionTower(nn.Module):
                     hv.remove()
 
             with torch.cuda.stream(enc_text_stream):
-                sampled_classes_list = kwargs["sampled_classes_list"][0]
+                questions = kwargs["questions_list"][0]
                 input_text = self.text_tokenizer(
-                    text=sampled_classes_list, return_tensors="pt", truncation=True, padding=True
+                    text=questions, return_tensors="pt", truncation=True, padding=True
                 ).to(device=images.device) # text to token (input_ids)
                 text_features = self.text_tower(**input_text, output_attentions=True)
                 
