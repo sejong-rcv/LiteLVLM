@@ -393,8 +393,6 @@ def evaluate_model_performance(validation_loader, model, args):
     }
 
     model.eval()
-    total_time, total_frames = 0.0, 0
-    image_index = 0
     for data_batch in tqdm.tqdm(validation_loader):
         # Prepare data and convert relevant tensors to the appropriate type
         data_batch = dict_to_cuda(data_batch)
