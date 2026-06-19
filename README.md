@@ -41,9 +41,9 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 ## 📢 Outline
 
 1. [Highlights](#highlights)
-2. [Installation](#installation)
-3. [Datasets](#datasets)
-4. [Model Zoo](#model-zoo)
+2. [Installation](#Installation)
+3. [Datasets](#Datasets)
+4. [Model Zoo](#Model-zoo)
 5. [Evaluation](#evaluation)
 6. [Citation](#citation)
 7. [Acknowledgement](#acknowledgement)
@@ -52,7 +52,7 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 
 <h2 id="highlights">
   <img src="imgs/logo.png" height="46" align="center">
-  Highlights
+  highlights
 </h2>
 
 <table>
