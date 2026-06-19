@@ -5,15 +5,10 @@
 # CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models
 
 <p align="center">
-  <a href="https://litelvlm-demo.com/">
-    <img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue">
-  </a>
-  <a href="https://arxiv.org/abs/2605.13178">
-    <img src="https://img.shields.io/badge/arXiv-b31b1b?logo=arxiv&logoColor=white">
-  </a>
-  <a href="https://github.com/sejong-rcv/LiteLVLM">
-    <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white">
-  </a>
+  <a href="https://childult-programmer.github.io/LiteLVLM.github.io/"><img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue"></a>
+  <a href="https://arxiv.org/abs/2605.13178"><img src="https://img.shields.io/badge/arXiv-b31b1b?logo=arxiv&logoColor=white"></a>
+  <a href="https://github.com/sejong-rcv/LiteLVLM"><img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white"></a>
+  <a href="https://litelvlm-demo.com/"><img src="https://img.shields.io/badge/🚀%20Live%20Demo-Try%20Now-00C853"></a>
 </p>
 
 [Sangin Lee](https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AIqSsVtReIryhTuSPRawrTwYvu9NA-xEVwFSQW5_enptxY4xswt0mimpMdlTRMNcsPGnnHCtNuzk0T4gDErqakULVV1Df2sHd23GlASjg1SNvGtkgQ&user=MO_dSVUAAAAJ)$^1$ and [Yukyung Choi](https://scholar.google.com/citations?user=vMrPtrAAAAAJ&hl=en)$^{\ddagger}$
