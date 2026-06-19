@@ -15,7 +15,7 @@
 
 ## 📜 News
 
-🌐 **[2026/06/15]** Project page launced.
+🌐 **[2026/06/15]** LiteLVLM Project page launced.
 
 🔥 **[2026/05/07]** Our code is now open source.
 
