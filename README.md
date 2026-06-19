@@ -141,7 +141,7 @@ If you plan to fine-tune LiteLVLM, please additionally download the `GLaMM-GranD
 Run the following example to evaluate LiteLVLM on Referring Expression Segmentation benchmarks.
 
 <details>
-<summary><b>1. Prepare the pretrained checkpoints and datasets.</b></summary>
+<summary>1. Prepare the pretrained checkpoints and datasets.</summary>
 
 <br>
 
@@ -151,7 +151,7 @@ Run the following example to evaluate LiteLVLM on Referring Expression Segmentat
 </details>
 
 <details>
-<summary><b>2. Run the evaluation script.</b></summary>
+<summary>2. Run the evaluation script.</summary>
 
 <br>
 
@@ -184,7 +184,7 @@ bash eval/referring_seg/single_evaluation.sh 'checkpoints/GLaMM-RefSeg' 'refcoco
 </details>
 
 <details>
-<summary><b>3. Run one-click evaluation.</b></summary>
+<summary>3. Run one-click evaluation.</summary>
 
 <br>
 
