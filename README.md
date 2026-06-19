@@ -6,10 +6,10 @@
 
 <p align="center">
   <a href="https://litelvlm-demo.com/">
-    <img src="https://img.shields.io/badge/arXiv-b31b1b?logo=arxiv&logoColor=white">
+    <img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue">
   </a>
   <a href="https://arxiv.org/abs/2605.13178">
-    <img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue">
+    <img src="https://img.shields.io/badge/arXiv-b31b1b?logo=arxiv&logoColor=white">
   </a>
   <a href="https://github.com/sejong-rcv/LiteLVLM">
     <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white">
