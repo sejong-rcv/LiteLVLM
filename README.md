@@ -61,7 +61,7 @@ LiteLVLM preserves segmentation quality while reducing token computation.
 
 <br>
 
-- Large vision-language models can process hundreds or thousands of visual tokens, making inference slow and memory-intensive.
+- LVLMs can process hundreds or thousands of visual tokens, making inference slow and memory-intensive.
 - We observe that <strong>visual tokens inside the target object can be surprisingly less similar to the input text</strong>.
 - LiteLVLM leverages this insight to efficiently segment text-described objects at the pixel level.
 
