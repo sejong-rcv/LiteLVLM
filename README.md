@@ -14,13 +14,11 @@
 [Sangin Lee](https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AIqSsVtReIryhTuSPRawrTwYvu9NA-xEVwFSQW5_enptxY4xswt0mimpMdlTRMNcsPGnnHCtNuzk0T4gDErqakULVV1Df2sHd23GlASjg1SNvGtkgQ&user=MO_dSVUAAAAJ)$^1$ and [Yukyung Choi](https://scholar.google.com/citations?user=vMrPtrAAAAAJ&hl=en)$^{\ddagger}$
 
 ## 📜 News
-🚀 **[2026/06/20]** Released live demo page. Try it now! 
 
-🌐 **[2026/06/15]** Project page launced.
-
-🔥 **[2026/05/07]** Our code is now open source.
-
-🔥 **[2026/05/01]** Our LiteLVLM is accepted by **ICML 2026**!
+- 🚀 **[2026/06/20]** We released the live demo page. Try it now!
+- 🌐 **[2026/06/15]** The project page is now online.
+- 🔥 **[2026/05/07]** Our code is now open source.
+- 🎉 **[2026/05/01]** LiteLVLM was accepted to ICML 2026!
 
 ## 📢 Outline
 
