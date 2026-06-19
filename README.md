@@ -11,7 +11,11 @@
   <a href="https://litelvlm-demo.com/"><img src="https://img.shields.io/badge/🚀%20Live%20Demo-Try%20Now-00C853"></a>
 </p>
 
-[Sangin Lee](https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AIqSsVtReIryhTuSPRawrTwYvu9NA-xEVwFSQW5_enptxY4xswt0mimpMdlTRMNcsPGnnHCtNuzk0T4gDErqakULVV1Df2sHd23GlASjg1SNvGtkgQ&user=MO_dSVUAAAAJ)$^1$ and [Yukyung Choi](https://scholar.google.com/citations?user=vMrPtrAAAAAJ&hl=en)$^{\ddagger}$
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AIqSsVtReIryhTuSPRawrTwYvu9NA-xEVwFSQW5_enptxY4xswt0mimpMdlTRMNcsPGnnHCtNuzk0T4gDErqakULVV1Df2sHd23GlASjg1SNvGtkgQ&user=MO_dSVUAAAAJ">Sangin Lee</a>
+  &nbsp;and&nbsp;
+  <a href="https://scholar.google.com/citations?user=vMrPtrAAAAAJ&hl=en">Yukyung Choi</a>
+</p>
 
 ## 📜 News
 
@@ -22,7 +26,7 @@
 
 ## 📢 Outline
 
-1. [LiteLVLM](#LiteLVLM)
+1. [Highlights](#Highlights)
 2. [Installation](#Installation)
 3. [Preparation](#Preparation)
 3. [Model Zoo](#Model-Zoo)
@@ -30,11 +34,41 @@
 5. [License](#License)
 6. [Acknowledgement](#Acknowledgement)
 
-## <img src="imgs/logo.png" height="55"> LiteLVLM
-In large vision-language models, visual tokens typically constitute the majority of input tokens, leading to substantial computational overhead. To address this, recent studies have explored pruning redundant or less informative visual tokens for image understanding tasks. However, these methods struggle with pixel grounding tasks, where token importance is highly contingent on the input text. Through an in-depth analysis of CLIP, we observe that visual tokens within referent regions often exhibit low similarity to their textual representation. Motivated by this insight, we introduce LiteLVLM, a training-free, text-guided token pruning strategy for efficient pixel grounding inference. By reversing the ranking of CLIP's visual-text similarity, LiteLVLM effectively retains visual tokens covering the referent regions, while recovering context tokens to enable clear foreground-background separation. Extensive experiments demonstrate that LiteLVLM significantly outperforms existing methods by over 5\% across diverse token budgets. Without any training or fine-tuning, LiteLVLM maintains 90\% of the original performance with a 22\% speedup and a 2.3&times; memory reduction.
+<h2>
+  <img src="imgs/logo.png" height="48" align="center">
+  Highlights
+</h2>
 
-<div align=center>
-<img width="1000" alt="intro" src="imgs/teaser.svg">
+<table>
+<tr>
+<td width="33%" align="center">
+<b>🚀 Faster Inference</b>
+<br><br>
+LiteLVLM accelerates LVLM inference by pruning unnecessary visual tokens.
+</td>
+<td width="33%" align="center">
+<b>🔍 Key Observation</b>
+<br><br>
+Object tokens are not always the most similar tokens to the input text.
+</td>
+<td width="33%" align="center">
+<b>🎯 Pixel Grounding</b>
+<br><br>
+LiteLVLM preserves segmentation quality while reducing token computation.
+</td>
+</tr>
+</table>
+
+<br>
+
+- Large vision-language models can process hundreds or thousands of visual tokens, making inference slow and memory-intensive.
+- We observe that <strong>visual tokens inside the target object can be surprisingly less similar to the input text</strong>.
+- LiteLVLM leverages this insight to efficiently segment text-described objects at the pixel level.
+
+<br>
+
+<div align="center">
+  <img width="95%" alt="LiteLVLM teaser" src="imgs/teaser.svg">
 </div>
 
 ## 🚀 Installation
