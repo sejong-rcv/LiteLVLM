@@ -29,7 +29,7 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 
 ---
 
-## 📜 News
+<h2 id="news">📜 News</h2>
 
 * 🚀 **[2026/06/20]** We released the live demo page. Try it now!
 * 🌐 **[2026/06/15]** The project page is now online.
@@ -38,12 +38,12 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 
 ---
 
-## 📢 Outline
+<h2 id="outline">📢 Outline</h2>
 
 1. [Highlights](#highlights)
-2. [Installation](#Installation)
-3. [Datasets](#Datasets)
-4. [Model Zoo](#Model-zoo)
+2. [Installation](#installation)
+3. [Datasets](#datasets)
+4. [Model Zoo](#model-zoo)
 5. [Evaluation](#evaluation)
 6. [Citation](#citation)
 7. [Acknowledgement](#acknowledgement)
@@ -52,7 +52,7 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 
 <h2 id="highlights">
   <img src="imgs/logo.png" height="46" align="center">
-  highlights
+  Highlights
 </h2>
 
 <table>
@@ -89,7 +89,7 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 
 ---
 
-## 🛠️ Installation
+<h2 id="installation">🛠️ Installation</h2>
 
 1. Clone this repository.
 
@@ -120,13 +120,13 @@ MMCV_WITH_OPS=1 pip install -e .
 
 ---
 
-## 📌 Datasets
+<h2 id="datasets">📌 Datasets</h2>
 
 Please see [`docs/datasets.md`](docs/datasets.md) for dataset preparation guidelines.
 
 ---
 
-## 🧩 Model Zoo
+<h2 id="model-zoo">🧩 Model Zoo</h2>
 
 We use the official pretrained checkpoints released by [GLaMM](https://github.com/mbzuai-oryx/groundingLMM/blob/main/docs/model_zoo.md).
 
@@ -136,7 +136,7 @@ If you plan to fine-tune LiteLVLM, please additionally download the `GLaMM-GranD
 
 ---
 
-## ⚡ Evaluation
+<h2 id="evaluation">⚡ Evaluation</h2>
 
 Run the following example to evaluate LiteLVLM on Referring Expression Segmentation benchmarks.
 
@@ -198,7 +198,7 @@ bash eval/referring_seg/run_evaluation.sh 'checkpoints/GLaMM-RefSeg' 'run/LiteLV
 
 ---
 
-## 📚 Citation
+<h2 id="citation">📚 Citation</h2>
 
 If you use LiteLVLM in your research, please cite our work using the following BibTeX entry:
 
@@ -213,6 +213,6 @@ If you use LiteLVLM in your research, please cite our work using the following B
 
 ---
 
-## 🙏 Acknowledgement
+<h2 id="acknowledgement">🙏 Acknowledgement</h2>
 
 We thank [GLaMM](https://github.com/mbzuai-oryx/groundingLMM) and [VideoGLaMM](https://github.com/mbzuai-oryx/VideoGLaMM) for releasing their code as open source.
