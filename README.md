@@ -84,7 +84,7 @@ CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in La
 <br>
 
 <div align="center">
-  <img width="95%" alt="LiteLVLM teaser" src="imgs/teaser.svg">
+  <img width="95%" alt="LiteLVLM teaser" src="imgs/intro.svg">
 </div>
 
 ---
